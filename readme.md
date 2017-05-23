@@ -12,7 +12,7 @@ a/1, a/2, b/10, c/20, a/100
 ---
 **To install use:**
 ````
-composer install robertasproniu/php-sortable-nodes
+composer require robertasproniu/php-sortable-nodes
 ````
 
 **To run the tests:**
