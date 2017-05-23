@@ -1,0 +1,25 @@
+{
+  "name": "robertasproniu/php-sortable-nodes",
+  "description": "sortable collections of nodes",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Robert Asproniu",
+      "email": "robert.asproniu.work@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  },
+  "autoload": {
+    "psr-4" : {"SortableNodes\\" : "src/"}
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  }
+}
