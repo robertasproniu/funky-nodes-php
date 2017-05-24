@@ -1,4 +1,4 @@
-#Sortable Collection of Items
+# Sortable Collection of Items
 
 An example package that allows to create, merge and sort collections of items.
 
