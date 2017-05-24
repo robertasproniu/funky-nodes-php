@@ -1,6 +1,6 @@
 {
-  "name": "robertasproniu/php-sortable-nodes",
-  "description": "sortable collections of nodes",
+  "name": "robertasproniu/php-sortable-collections",
+  "description": "sortable collections of items",
   "minimum-stability": "stable",
   "authors": [
     {
