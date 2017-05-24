@@ -30,12 +30,17 @@ class SortableCollectionTest extends TestCase
                 return $item2 < $item1;
             });
 
-        fwrite(STDOUT, $response . "\n");
-
         $this->assertEquals(
             "a2, a5, b5",
             $response
         );
+    }
+
+    public function testUnique()
+    {
+        $expected = array_unique($this->collection->get());
+
+        $this->assertEquals($expected, $this->collection->unique()->get());
     }
 
 }
