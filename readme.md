@@ -1,12 +1,12 @@
 #Sortable Collection of Items
 
-An example package that allows to create, merge and sort collections of nodes.
+An example package that allows to create, merge and sort collections of items.
 
 Collections are sorted using custom algorithm wich can be found in ``SortableArray.php`` file
 
 **To install use:**
 ````
-composer require robertasproniu/php-sortable-collections
+composer require robertasproniu/php-sortable-collections dev-master
 ````
 
 **To run the tests:**
@@ -37,7 +37,7 @@ class CustomCollectionFactory extends CollectionFactory
 
 $collection = CustomCollectionFactory::create($data); 
 ````
-**Get items form collection**
+**Get items from collection**
 ````php
 $collection->get(); // return array
 ````
