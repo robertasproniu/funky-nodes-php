@@ -1,7 +1,6 @@
 {
   "name": "robertasproniu/php-sortable-collections",
   "description": "sortable collections of items",
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Robert Asproniu",
@@ -21,5 +20,7 @@
     "classmap": [
       "tests/"
     ]
-  }
+  },
+  "license": "MIT",
+  "minimum-stability": "dev"
 }
