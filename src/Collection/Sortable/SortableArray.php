@@ -6,10 +6,10 @@
  * Time: 21:19
  */
 
-namespace SortableNodes\Collection\Sortable;
+namespace SortableCollection\Collection\Sortable;
 
 use Closure;
-use SortableNodes\Contracts\Sortable\SortableInterface;
+use SortableCollection\Contracts\Sortable\SortableInterface;
 
 class SortableArray implements SortableInterface
 {

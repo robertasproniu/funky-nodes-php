@@ -6,13 +6,13 @@
  * Time: 21:12
  */
 
-namespace SortableNodes\Collection;
+namespace SortableCollection\Collection;
 
 
 use Closure;
-use SortableNodes\Collection\Sortable\SortableArray;
-use SortableNodes\Contracts\Collection\CollectionInterface;
-use SortableNodes\Contracts\PrintableInterface;
+use SortableCollection\Collection\Sortable\SortableArray;
+use SortableCollection\Contracts\Collection\CollectionInterface;
+use SortableCollection\Contracts\PrintableInterface;
 
 class Collection implements CollectionInterface, PrintableInterface
 {

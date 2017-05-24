@@ -6,7 +6,7 @@
  * Time: 20:58
  */
 
-namespace SortableNodes\Contracts;
+namespace SortableCollection\Contracts;
 
 
 interface PrintableInterface

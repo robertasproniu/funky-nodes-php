@@ -6,7 +6,7 @@
  * Time: 20:48
  */
 
-namespace SortableNodes\Contracts\Sortable;
+namespace SortableCollection\Contracts\Sortable;
 
 
 use Closure;

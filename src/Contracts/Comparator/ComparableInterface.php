@@ -6,7 +6,7 @@
  * Time: 21:08
  */
 
-namespace SortableNodes\Contracts\Comparator;
+namespace SortableCollection\Contracts\Comparator;
 
 
 interface ComparableInterface

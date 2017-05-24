@@ -6,13 +6,13 @@
  * Time: 21:35
  */
 
-namespace SortableNodes;
+namespace SortableCollection;
 
 
 use Exception;
-use SortableNodes\Collection\Collection;
-use SortableNodes\Contracts\Collection\CollectionInterface;
-use SortableNodes\Models\Node;
+use SortableCollection\Collection\Collection;
+use SortableCollection\Contracts\Collection\CollectionInterface;
+use SortableCollection\Models\Node;
 
 class NodeCollection extends CollectionFactory
 {

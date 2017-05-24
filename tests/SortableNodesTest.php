@@ -8,8 +8,8 @@
  */
 
 use PHPUnit\Framework\TestCase;
-use SortableNodes\NodeCollection;
-use SortableNodes\Models\Node;
+use SortableCollection\Models\Node;
+use SortableCollection\NodeCollection;
 
 class SortableNodesTest extends TestCase
 {

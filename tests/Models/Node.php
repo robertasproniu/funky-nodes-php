@@ -6,11 +6,11 @@
  * Time: 21:06
  */
 
-namespace SortableNodes\Models;
+namespace SortableCollection\Models;
 
 
-use SortableNodes\Contracts\Comparator\ComparableInterface;
-use SortableNodes\Contracts\PrintableInterface;
+use SortableCollection\Contracts\Comparator\ComparableInterface;
+use SortableCollection\Contracts\PrintableInterface;
 
 class Node implements ComparableInterface, PrintableInterface
 {

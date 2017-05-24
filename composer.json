@@ -15,7 +15,7 @@
     "phpunit/phpunit": "^6.1"
   },
   "autoload": {
-    "psr-4" : {"SortableNodes\\" : "src/"}
+    "psr-4" : {"SortableCollection\\" : "src/"}
   },
   "autoload-dev": {
     "classmap": [

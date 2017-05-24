@@ -6,10 +6,10 @@
  * Time: 01:37
  */
 
-namespace SortableNodes;
+namespace SortableCollection;
 
 
-use SortableNodes\Contracts\Collection\CollectionInterface;
+use SortableCollection\Contracts\Collection\CollectionInterface;
 
 abstract class CollectionFactory
 {
