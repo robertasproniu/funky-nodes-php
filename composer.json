@@ -1,7 +1,7 @@
 {
   "name": "robertasproniu/php-sortable-collections",
   "description": "sortable collections of items",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Robert Asproniu",

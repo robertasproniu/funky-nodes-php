@@ -17,13 +17,13 @@ composer require robertasproniu/php-sortable-collections
 
 **Creating a collection**
 ````php
-use SortableNodes\Collection\Collection;
+use SortableCollection\Collection\Collection;
 $collection = new Collection($items); // where $items = []
 ````
 or using a factory class
 ````php
-use SortableNodes\CollectionFactory;
-use SortableNodes\Collection\Collection;
+use SortableCollection\CollectionFactory;
+use SortableCollection\Collection\Collection;
 
 class CustomCollectionFactory extends CollectionFactory
 {
