@@ -41,9 +41,9 @@ class Collection implements CollectionInterface, PrintableInterface
      */
     public function merge(CollectionInterface $collection): CollectionInterface
     {
-        $this->items = array_merge($this->items, $collection->get());
+        $items = array_merge($this->items, $collection->get());
 
-        return $this;
+        return new static($items);
     }
 
     /**
@@ -53,9 +53,9 @@ class Collection implements CollectionInterface, PrintableInterface
      */
     public function unique(): CollectionInterface
     {
-        $this->items = array_unique($this->items);
+        $items = array_unique($this->items);
 
-        return $this;
+        return new static($items);
     }
 
     /**
